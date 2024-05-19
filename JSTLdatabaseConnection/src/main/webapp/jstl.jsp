@@ -10,7 +10,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<sql:setDataSource var = "db" driver = "org.postgresql.Driver" url = "jdbc:postgresql://localhost:5432/postgres" user = "postgres" password = "Qwerty@12345" />
+	<sql:setDataSource var = "db" driver = "org.postgresql.Driver" url = "jdbc:postgresql://localhost:5432/postgres" user = "postgres" password = "*****" />
 	<sql:query var = "rs" dataSource = "${db}">SELECT * FROM public."Friends"</sql:query>
 	
 		<core:forEach items = "${rs.rows}" var = "c">

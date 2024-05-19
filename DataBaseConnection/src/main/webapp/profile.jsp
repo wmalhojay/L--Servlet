@@ -14,7 +14,7 @@
 
 String url = "jdbc:postgresql://localhost:5432/postgres";
 String username = "postgres";
-String password = "Qwerty@12345";
+String password = "*****";
 String sql = "SELECT * FROM public.table";
 Class.forName("org.postgresql.Driver");
 Connection con = DriverManager.getConnection(url, username, password);
